@@ -2,30 +2,20 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Pre-conditions
+First you should install git(console or desktop app), to be able to clone this project...
+In purpose of validating PWA, you should use Lighthouse plugin(browser or node.js). check https://developers.google.com/web/tools/lighthouse/
 
-## Code scaffolding
+# Code editor(advice)
+For best performances and clean coding we suggest you to use: https://code.visualstudio.com/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+# Project Installation steps
+1. node.js & npm, check: https://nodejs.org/en/download/
+2. angular-cli, run: "npm install -g angular-cli@latest"
+3. clone this project
+4. run: "npm install"
+5. run: "ng serve" (for development) or "ng serve --prod" (for validating PWA in production)
 
-## Build
+When your project is finished, ask mentors for team-repository URL so you could commit and deploy your application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Happy coding!
