@@ -22,22 +22,24 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body class="background-display">
+  <base href="/">
 	<!--  register service worker /--> 
 	<script>
-    if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+  //  if ('serviceWorker' in navigator) {
+  //  navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
       // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }).catch(function(err) {
+  //    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+  //  }).catch(function(err) {
       // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  }
+  //    console.log('ServiceWorker registration failed: ', err);
+  //  });
+ // }
   </script>
 
   <app-root>Loading...</app-root>
