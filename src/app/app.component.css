@@ -1,7 +1,8 @@
-body {
-    background: url('http://dante.swiftideas.com/wp-content/uploads/2013/03/parallax_bridge1.jpghttp://placehold.it/1920x1080') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
+
+.button-container{
+    text-align: center;
+}
+img{
+    margin: 0px auto;
+}
+
