@@ -1,5 +1,9 @@
 .centered{
-	position:absolute;
-     bottom:0;
-     right:0;
+
+}
+.button-container{
+    text-align: center;
+}
+img{
+    margin: 0px auto;
 }
