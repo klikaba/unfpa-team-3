@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Education about std'
-  subtitle = 'Lorem ipsum';
+
+  title = 'Welcome!';
+  subtitle = 'powered by: Klika & UNFPA';
 }
