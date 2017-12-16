@@ -26,9 +26,13 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+<<<<<<< HEAD
     "@types/jquery": "^3.2.17",
+=======
+>>>>>>> 868ca7c692f265c71447b2843d30fef4e63570f5
     "angular-cli": "1.0.0-beta.28.3",
     "core-js": "^2.4.1",
+    "pug": "^2.0.0-rc.4",
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
     "typescript": "2.3.3",
