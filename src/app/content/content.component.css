@@ -1,5 +1,5 @@
 .nav-side-menu {
-  overflow: auto;
+  overflow: hidden;
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
@@ -170,11 +170,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ed5c2', end
     line-height: 50px !important;
   }
 }
+.text-center{
+  padding-top: 45px;
+}
+.container-fluid .container{
+position: relative;
+}
+.container-fluid .container .back{
+  bottom:0;
+  position: absolute;
+}
+.container-fluid .container .back a{
+  color: white;
+}
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
     border-top: 1px solid white;
   }
+}
+@media (max-width: 767px) {
+  .header-banner{
+    display: none;
+  }
+  .brand img{
+    max-width: 80px;
+  }
+  .nav-side-menu .brand{
+    height: 85px;
+  }
+  #page-content-wrapper {
+    max-width: 98%;
+    padding-left: 15px;
+    padding: 15px;
+  }
+.well{
+  width: 90%;
+}
 }
 body {
   margin: 0px;
