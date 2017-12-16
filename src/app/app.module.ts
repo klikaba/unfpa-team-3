@@ -40,6 +40,7 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule
   ],
+exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
