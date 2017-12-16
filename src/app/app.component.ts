@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as $ from "jquery";
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome!';
-  subtitle = 'powered by: Klika & UNFPA';
+  title = 'Education about std'
+  subtitle = 'Lorem ipsum';
 }
