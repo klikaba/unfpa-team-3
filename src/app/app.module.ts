@@ -9,7 +9,7 @@ import { IntroComponent } from './intro/intro.component';
 
 import { AppComponent } from './app.component';
 
-const appRoutes: Routes = [
+/*const appRoutes: Routes = [
   
   {
      path : "",
@@ -17,7 +17,13 @@ const appRoutes: Routes = [
     {path: '', component: HomeComponent },
   {  path: 'content-page', component: ContentComponent },
   { path:'intro-page',component: IntroComponent }]}
-];
+];*/
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'content-page', component: ContentComponent },
+  { path: 'intro-page', component: IntroComponent }
+ ];
 
 
 
