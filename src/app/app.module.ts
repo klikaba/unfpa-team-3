@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
   { path:'intro-page',component: IntroComponent }]}
 ];*/
 
-const routes: Routes = [
+const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'content-page', component: ContentComponent },
   { path: 'intro-page', component: IntroComponent }
