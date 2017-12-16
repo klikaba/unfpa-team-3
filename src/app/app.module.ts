@@ -10,18 +10,13 @@ import { IntroComponent } from './intro/intro.component';
 import { AppComponent } from './app.component';
 
 const appRoutes: Routes = [
-  { 
-    path: 'content-page', 
-    component: ContentComponent 
-  },
+  
   {
-    path:'',
-    component: HomeComponent
-  },
-  {
-    path:'intro-page',
-    component: IntroComponent
-  }
+     path : "",
+  children :[
+    {path: '', component: HomeComponent },
+  {  path: 'content-page', component: ContentComponent },
+  { path:'intro-page',component: IntroComponent }]}
 ];
 
 
