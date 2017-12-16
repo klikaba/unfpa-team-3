@@ -40,33 +40,37 @@ body{
 #showcase p{
   font-size:20px;
   color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #showcase .button{
   font-size:18px;
   text-decoration:none;
-  color:#ffffff;
-  border:#BF6D84 1px solid;
+  color:#000000;
+  border:#ffffff 1px solid;
   padding:10px 20px;
   border-radius:10px;
   margin-top:20px;
+  background: #ffffff;
 }
 
 #showcase .button:hover{
-  background:#BF6D84;
+  background:#55B7C5;
   color:#fff;
 }
 
 #section-a{
   padding:20px;
-  background:#375C7B;
-  color:#fff;
+  background:#fff;
   text-align:center;
+  font-size: 16px;
 }
 
 #section-b{
   padding:20px;
-  background:#f4f4f4;
+  background:#45cec1;
+  color: #fff;
   text-align:center;
 }
 
@@ -79,7 +83,7 @@ body{
 }
 
 #section-c .box-1, #section-c .box-3{
-  background:#375C7B;
+  background:#55B7C5;
   color:#fff;
 }
 
@@ -88,9 +92,10 @@ body{
 }
 
 @media screen and (orientation: portrait) {
-  img.ri { max-width: 90%; }
+  img.ri { max-width: 80%; }
 }
 
 @media screen and (orientation: landscape) {
-  img.ri { max-height: 90%; }
+  img.ri { max-height: 80%; }
 }
+
